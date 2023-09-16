@@ -15,9 +15,9 @@ int get_f1(const char *format, int *i)
 	const char F1_CH[] = {'-', '+', '0', '#', ' ', '\0'};
 	const int F1_ARR[] = {F_MINUS, F_PLUS, F_ZERO, F_HASH, F_SPACE, 0};
 
-	for (k = *i + 1; format[k] != '\0'; k)
+	for (k = *i + 1; format[k] != '\0'; k++)
 	{
-		for (a = 0; FLAGS_CH[a] != '\0'; a++)
+		for (a = 0; F1_CH[a] != '\0'; a++)
 			if (format[k] == F1_CH[a])
 			{
 				f1 |= F1_ARR[a];

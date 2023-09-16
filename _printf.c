@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int i, printed = 0, printed_chars = 0;
 	int f1, w1, p1, s1, buf = 0;
 	va_list list;
-	char buffer[BUF];
+	char buffer[BUFF_SIZE];
 
 	if (format == NULL)
 		return (-1);
@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 		if (format[i] != '%')
 		{
 			buffer[buf++] = format[i];
-			if (buf == BUF)
+			if (buf == BUFF_SIZE)
 				print_buffer(buffer, &buf);
 			/* write(1, &format[i], 1);*/
 			printed_chars++;
@@ -55,7 +55,7 @@ int _printf(const char *format, ...)
 /**
  * print_buffer - Prints the contents of the buffer if it exist
  * @buffer: Array of chars
- * @buff_ind: Index at which to add next char, represents the length.
+ * @buf: Index at which to add next char, represents the length.
  */
 void print_buffer(char buffer[], int *buf)
 {

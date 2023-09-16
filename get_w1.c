@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * get_w1 - Calculates the width for printing
@@ -15,7 +16,7 @@ int get_w1(const char *format, int *i, va_list list)
 
 	for (k = *i + 1; format[k] != '\0'; k++)
 	{
-		if (is_digit(format[k]))
+		if (isdigit(format[k]))
 		{
 			w1 *= 10;
 			w1 += format[k] - '0';

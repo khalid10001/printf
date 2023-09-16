@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * get_p1 - Calculates the precision for printing
@@ -20,7 +21,7 @@ int get_p1(const char *format, int *i, va_list list)
 
 	for (k += 1; format[k] != '\0'; k++)
 	{
-		if (is_digit(format[k]))
+		if (isdigit(format[k]))
 		{
 			p1 *= 10;
 			p1 += format[k] - '0';
