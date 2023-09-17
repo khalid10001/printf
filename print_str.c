@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_string - prints a string
+ * print_str - a function that prints a string
  * @types: List of arguments
  * @buffer: character variable buffer array to handle print
  * @f1: calculates flags
  * @w1: get width.
  * @p1: ineger precision specification
  * @s1: integer size specifier
- * Return: returns the number of chars printed
+ * Return: returns the number of string
  */
 int print_str(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1)

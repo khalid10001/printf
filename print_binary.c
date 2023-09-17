@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_string - a function that prints a binary
+ * print_binary - a function that prints a binary
  * @types: List of arguments
  * @buffer: character variable buffer array to handle print
  * @f1: calculates flags

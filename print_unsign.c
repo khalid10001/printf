@@ -1,5 +1,15 @@
 #include "main.h"
 
+/**
+ * print_unsign - a function that prints a unsigned number
+ * @types: List of arguments
+ * @buffer: character variable buffer array to handle print
+ * @f1: calculates flags
+ * @w1: get width.
+ * @p1: ineger precision specification
+ * @s1: integer size specifier
+ * Return: returns the number of unsigned
+ */
 int print_unsign(va_list types, char buffer[],
 			int f1, int w1, int p1, int s1)
 {
