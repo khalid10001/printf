@@ -57,7 +57,7 @@ int print_int(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 int print_binary(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
-int print_unsigned(va_list types, char buffer[],
+int print_unsign(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 int print_octal(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
@@ -101,7 +101,7 @@ int write_num(int ind, char bff[], int f1, int w1, int p1,
 int write_pointer(char buffer[], int ind, int length,
 	int w1, int f1, char padd, char extra_c, int padd_start);
 
-int write_unsgnd(int is_negative, int ind,
+int write_unsign(int is_negative, int ind,
 char buffer[],
 	int f1, int w1, int p1, int s1);
 
