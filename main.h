@@ -61,7 +61,7 @@ int print_unsign(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 int print_octal(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
-int print_hexadecimal(va_list types, char buffer[],
+int print_hexadec(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 int print_hexa_upper(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
