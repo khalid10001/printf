@@ -63,7 +63,7 @@ int print_oct(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 int print_hexadec(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
-int print_hexa_upper(va_list types, char buffer[],
+int print_hexa_up(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 
 int print_hexa(va_list types, char map_to[],
