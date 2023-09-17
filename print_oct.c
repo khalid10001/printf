@@ -37,5 +37,5 @@ buffer[i--] = '0';
 
 i++;
 
-return (write_unsgnd(0, i, buffer, f1, w1, p1, s1));
+return (write_unsign(0, i, buffer, f1, w1, p1, s1));
 }
