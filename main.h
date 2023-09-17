@@ -47,9 +47,9 @@ va_list list, char buffer[], int f1, int w1, int p1, int s1);
 /* Funtions to print chars and strings */
 int print_char(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
-int print_string(va_list types, char buffer[],
+int print_str(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
-int print_percent(va_list types, char buffer[],
+int print_per(va_list types, char buffer[],
 	int f1, int w1, int p1, int s1);
 
 /* Functions to print numbers */
