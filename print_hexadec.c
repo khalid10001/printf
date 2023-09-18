@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- *  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
- *   * @types: Lista of arguments
- *    * @buffer: Buffer array to handle print
- *     * @flags:  Calculates active flags
- *      * @width: get width
- *       * @precision: Precision specification
- *        * @size: Size specifier
- *         * Return: Number of chars printed
+ * print_hexadecimal - Prints an unsigned number in hexadecimal notation
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @f1:  Calculates active flags
+ * @w1: get width
+ * @p1: Precision specification
+ * @s1: Size specifier
+ * Return: Number of chars printed
  */
 int print_hexadec(va_list types, char buffer[],
 			int f1, int w1, int p1, int s1)

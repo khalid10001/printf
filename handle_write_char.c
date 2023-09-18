@@ -2,7 +2,7 @@
 
 /**
  * handle_write_char - a function that handle the string
- * @types: List of arguments
+ * @c: charcter variable
  * @buffer: character variable buffer array to handle print
  * @f1: calculates flags
  * @w1: get width.
@@ -12,7 +12,7 @@
  */
 int handle_write_char(char c, char buffer[],
 	int f1, int w1, int p1, int s1)
-{ /* char is stored at left and paddind at buffer's right */
+{
 	int x = 0;
 	char padd = ' ';
 

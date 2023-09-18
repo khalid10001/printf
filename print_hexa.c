@@ -3,8 +3,10 @@
 /**
  * print_hexa - a function that prints the hexadecimal
  * @types: List of arguments
+ * @map_to: character variable array
  * @buffer: character variable buffer array to handle print
  * @f1: calculates flags
+ * @flag_ch: character variable
  * @w1: get width.
  * @p1: ineger precision specification
  * @s1: integer size specifier

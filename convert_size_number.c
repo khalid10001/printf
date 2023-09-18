@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * convert_size_unsign - a function that casts the number to the specified size
+ * convert_size_number - a function that casts the number to the specified size
  * @num: unsigned long integer variable number to be casted
- * @size: integer variable number indicating the type to be casted
+ * @s1: integer variable number indicating the type to be casted
  * Return: return the casted value of num
  */
 long int convert_size_number(long int num, int s1)
