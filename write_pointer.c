@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * write_pointer - Write a memory address
  * @buffer: Arrays of chars
