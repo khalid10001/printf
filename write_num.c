@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * write_num - Write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
