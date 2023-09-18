@@ -19,7 +19,7 @@ int print_hexa(va_list types, char map_to[], char buffer[],
 
 	UNUSED(w1);
 
-	number = convert_size_unsgnd(number, s1);
+	number = convert_size_unsign(number, s1);
 
 	if (number == 0)
 		buffer[x--] = '0';

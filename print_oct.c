@@ -13,29 +13,29 @@ int print_oct(va_list types, char buffer[],
 			int f1, int w1, int p1, int s1)
 {
 
-int i = BUFF_SIZE - 2;
-unsigned long int num = va_arg(types, unsigned long int);
-unsigned long int init_num = num;
+	int i = BUFF_SIZE - 2;
+	unsigned long int num = va_arg(types, unsigned long int);
+	unsigned long int init_num = num;
 
-UNUSED(w1);
+	UNUSED(w1);
 
-num = convert_size_unsgnd(num, s1);
+	num = convert_size_unsign(num, s1);
 
-if (num == 0)
-buffer[i--] = '0';
+	if (num == 0)
+		buffer[i--] = '0';
 
-buffer[BUFF_SIZE - 1] = '\0';
+	buffer[BUFF_SIZE - 1] = '\0';
 
-while (num > 0)
-{
-buffer[i--] = (num % 8) + '0';
-num /= 8;
-}
+	while (num > 0)
+	{
+	buffer[i--] = (num % 8) + '0';
+	num /= 8;
+	}
 
-if (f1 & F_HASH && init_num != 0)
-buffer[i--] = '0';
+	if (f1 & F_HASH && init_num != 0)
+	buffer[i--] = '0';
 
-i++;
+	i++;
 
-return (write_unsign(0, i, buffer, f1, w1, p1, s1));
+	return (write_unsign(0, i, buffer, f1, w1, p1, s1));
 }

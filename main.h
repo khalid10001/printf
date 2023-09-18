@@ -111,6 +111,6 @@ int append_hexa_code(char, char[], int);
 int is_digit(char);
 
 long int convert_size_number(long int num, int s1);
-long int convert_size_unsgnd(unsigned long int num, int s1);
+long int convert_size_unsign(unsigned long int num, int s1);
 
 #endif /* MAIN_H */
