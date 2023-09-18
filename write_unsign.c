@@ -11,7 +11,7 @@
  *
  * Return: Number of written chars.
  */
-int write_unsgnd(int is_negative, int ind,
+int write_unsign(int is_negative, int ind,
 	char buffer[],
 	int f1, int w1, int p1, int s1)
 {
