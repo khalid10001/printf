@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * print_int - a function that print integer 
+ * print_int - a function that print integer
  * @types: List of arguments
  * @buffer: character variable buffer array to handle print
  * @f1: calculates flags
